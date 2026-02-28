@@ -1,18 +1,18 @@
-# 🎸 Engine La Musique
+# Engine La Musique
 
-A **procedural, generative music engine** built entirely in Python. No samples, no WAV files — every sound is synthesized in real-time using pure DSP.
+A **procedural, generative music engine** built entirely in Python. No samples, no WAV files. Every sound is synthesized in real-time using pure math. (A method termed DSP in the music industry)
 
-Engine La Musique simulates a full band with drums, bass, rhythm, lead, pads, and arpeggios across **4 distinct styles** — all driven by smart music theory and a live conductor system.
+Engine La Musique simulates a full band/orchestra with drums, bass, rhythm, lead, pads, and arpeggios across **4 distinct styles** driven by smart music theory and a live conductor system.
 
-## ✨ Features
+## Features
 
-- **4 Styles**: Rock, Pop, EDM, Classical — each with unique instrument voicings and arrangements
+- **4 Styles**: Rock, Pop, EDM, Classicaaa - each with unique instrument voicings and arrangements
 - **Generative Music Theory**: Automatic chord progressions, scale mapping, and voice leading
 - **Synthesized Instruments**:
   - 🎸 Guitar — Karplus-Strong string synthesis with strumming, palm mutes, and distortion
   - 🥁 Drums — Procedurally synthesized kick, snare, hi-hats, and toms
   - 🎹 Synth — Subtractive synthesis for bass, pads, arps, and piano
-- **Effects Chain**: Distortion, Delay, Reverb, Chorus — all real-time
+- **Effects Chain**: Distortion, Delay, Reverb, Chorus - all real-time
 - **Smart Conductor**: Manages tension, intensity, chord progressions, and layer activation
 - **Musical Outro**: 3-phase ending with ritardando, cadential progression, and smooth fade
 - **Live Control**: Change style, key, tempo, effects, and layers in real-time via CLI
@@ -33,11 +33,11 @@ pip install -e .
 
 ### Dependencies
 
-- `numpy` — DSP and audio math
-- `pyaudio` — Real-time audio output
-- `scipy` (optional) — Better guitar cabinet simulation filters
+- `numpy` - just better math
+- `pyaudio` - audio output
+- `scipy` - guitar cabinet sim (newly added)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### As a CLI
 
