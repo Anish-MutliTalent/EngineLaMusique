@@ -1,9 +1,9 @@
 [build-system]
 requires = ["setuptools>=61.0"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
-name = "engine-la-musique"
+name = "EngineLaMusique"
 version = "0.1.0"
 description = "A procedural, generative music engine with real-time DSP — synthesized instruments, smart chord progressions, and live parameter control"
 readme = "README.md"
@@ -36,12 +36,12 @@ dependencies = [
 full = ["scipy"]
 
 [project.scripts]
-engine-la-musique = "EngineLaMusique.main:main"
+EngineLaMusique = "EngineLaMusique.main:main"
 
 [project.urls]
-Homepage = "https://github.com/anish/engine-la-musique"
-Repository = "https://github.com/anish/engine-la-musique"
-Issues = "https://github.com/anish/engine-la-musique/issues"
+Homepage = "https://github.com/Anish-MutliTalent/EngineLaMusique"
+Repository = "https://github.com/Anish-MutliTalent/EngineLaMusique"
+Issues = "https://github.com/Anish-MutliTalent/EngineLaMusique/issues"
 
 [tool.setuptools.packages.find]
 include = ["EngineLaMusique*"]
