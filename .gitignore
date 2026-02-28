@@ -29,3 +29,13 @@ Thumbs.db
 .pytest_cache/
 htmlcov/
 .coverage
+start_engine.bat
+test_workflow.py
+
+# Drafts
+dynamic1.py
+dynamic2.py
+dynamic3.py
+dynamic4.py
+dynamic5.py
+
